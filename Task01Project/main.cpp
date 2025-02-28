@@ -22,6 +22,10 @@ int main() {
 
 	cout << "The first value of array is: " << find_first_value_index(array, size, value) << endl;
 
+	cout << "The last value of array is: " << find_last_value_index(array, size, value) << endl;
+
+	cout << "coutnt of value is " << count_value(array, size, value) << endl;
+
 	return 0;
 }
 
