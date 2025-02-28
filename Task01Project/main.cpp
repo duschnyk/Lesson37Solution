@@ -6,11 +6,11 @@ int main() {
 	int array[BUF];
 
 	int size;
-	cout << "input size of array";
+	cout << "input size of array: ";
 	cin >> size;
 
 	int value;
-	cout << "input find_value";
+	cout << "input find_value: ";
 	cin >> value;
 
 	init(array, size, -20, 50);
@@ -19,6 +19,8 @@ int main() {
 	string msg = find_value(array, size, value) ? "Yes" : "no";
 
 	cout << "Answer: " << msg << endl;
+
+	cout << "The first value of array is: " << find_first_value_index(array, size, value) << endl;
 
 	return 0;
 }
