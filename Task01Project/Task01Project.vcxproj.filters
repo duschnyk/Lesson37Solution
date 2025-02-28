@@ -24,12 +24,18 @@
     <ClCompile Include="linear_search_algoriths.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="binary_search_algorithm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="linear_search_algoriths.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="binary_search_algorithm.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

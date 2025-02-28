@@ -1,13 +1,16 @@
 #include "util.h"
 #include "linear_search_algoriths.h"
+#include "binary_search_algorithm.h"
 #define BUF 100
 
 int main() {
-	int array[BUF];
+	/*int array[BUF];
 
 	int size;
 	cout << "input size of array: ";
-	cin >> size;
+	cin >> size;*/
+	int array[]{ 1,2,3,4,5,6,7,8,9,1013,20,30,35,16 };
+	int size = 15;
 
 	int value;
 	cout << "input find_value: ";
@@ -16,7 +19,9 @@ int main() {
 	init(array, size, -20, 50);
 	cout << "Array: " << convert(array, size) << endl;
 
-	string msg = find_value(array, size, value) ? "Yes" : "no";
+	//string msg = find_value(array, size, value) ? "Yes" : "no";
+	string msg = binary_find_value(array, size, value) ? "Yes" : "no";
+
 
 	cout << "Answer: " << msg << endl;
 

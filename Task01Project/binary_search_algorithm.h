@@ -1,0 +1,1 @@
+bool binary_find_value(int* arrat, int size, int value);
