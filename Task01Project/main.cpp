@@ -9,7 +9,7 @@ int main() {
 	int size;
 	cout << "input size of array: ";
 	cin >> size;*/
-	int array[]{ 1,2,3,4,5,6,7,8,9,1013,20,30,35,16 };
+	int array[]{ 1,2,3,4,5,6,7,8,9,10,13,20,30,35,16 };
 	int size = 15;
 
 	int value;
